@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Delius&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.ico" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/locations.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <div class="left-section">
+        <img src="assets/favicon.ico" alt="Brew & Bean Logo">
+        <h1 class="site-title">Brew & Bean</h1>
+      </div>
+
+      <div class="right-section">
+
+      <button onclick="showNav();"class="nav-toggle-menu">
+          <span class="hamburger-menu-line"></span>
+          <span class="hamburger-menu-line"></span>
+          <span class="hamburger-menu-line"></span>
+        </button>
+
+        <nav class="navigation">
+          <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="locations-container">
+      <div class="locations-header">
+        <h1 class="locations-title">Our Locations</h1>
+        <h2 class="locations-description">Visit us at any of our cozy locations</h2>
+      </div>
+      <section class="location-cards">
+        <article class="location-card">
+          <img src="assets/store-image-one.avif" alt="Brew & Bean downtown location">
+          <div class="location-info">
+            <h1>Downtown</h1>
+            <p class="address">123 Main Street<br>City Center, ST 12345</p>
+            <p class="hours">Mon-Fri: 6:00 AM - 8:00 PM<br>Sat-Sun: 7:00 AM - 9:00 PM</p>
+          </div>
+        </article>
+        <article class="location-card">
+          <img src="assets/store-image-two.avif" alt="Brew & Bean university location">
+          <div class="location-info">
+            <h1>University</h1>
+            <p class="address">456 College Ave<br>University Town, ST 67890</p>
+            <p class="hours">Mon-Fri: 6:00 AM - 10:00 PM<br>Sat-Sun: 7:00 AM - 11:00 PM</p>
+          </div>
+        </article>
+        <article class="location-card">
+          <img src="assets/store-image-three.avif" alt="Brew & Bean Riverside location">
+          <div class="location-info">
+            <h1>Riverside</h1>
+            <p class="address">789 Riverside Dr<br>Riverside, ST 10112</p>
+            <p class="hours">Mon-Fri: 7:00 AM - 7:00 PM<br>Sat-Sun: 8:00 AM - 8:00 PM</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <script src="scripts/scripts.js"></script>
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-title-and-description">
+        <h1 class="footer-title">Brew & Bean</h1>
+        <p class="footer-text">Creating the perfect coffee experience since 2015. Visit us for premium coffee, cozy atmosphere, and exceptional service.</p>
+      </div>
+      <div class="quick-links">
+        <p class="quick-links-title">Quick Links</p>
+        <ul class="footer-links">
+          <li><a href="home.html" class="footer-link">Home</a></li>
+          <li><a href="menu.html" class="footer-link">Menu</a></li>
+          <li><a href="about.html" class="footer-link">About</a></li>
+          <li><a href="locations.html" class="footer-link">Locations</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="contact-info">
+        123 Main Street<br>City Center, ST 12345<br>(555) 123-4567<br>coffee@brewandbean.com
+      </div>
+      </div>
+      <span class="footer-span"></span>
+      <div class="copyright">
+        &copy; 2024 Brew & Bean. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

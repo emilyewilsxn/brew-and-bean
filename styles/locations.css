@@ -1,0 +1,106 @@
+.locations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 20px;
+}
+
+.locations-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.locations-title {
+  color: var(--text-color);
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.locations-description {
+  color: var(--text-color);
+  font-size: 18px;
+}
+
+/*location cards styles*/
+
+.location-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px;
+}
+
+.location-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 12px rgba(132, 99, 88, 0.1);
+  border-radius: 10px;
+}
+
+.location-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.location-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.location-info h1 {
+  color: var(--text-color);
+  font-size: 24px;
+}
+
+.location-info p {
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+/*responsive styles*/
+
+@media (min-width: 768px) {
+  .location-info h1 {
+    font-size: 28px;
+  }
+
+  .location-info p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .location-cards {
+    flex-direction: row;
+    gap: 85px;
+    max-width: 1200px;
+  }
+  .location-card {
+    flex: 1;
+    max-width: 400px;
+    min-height: 500px;
+  }
+  .location-card img {
+    height: 250px;
+    object-fit: cover;
+  }
+  .location-info {
+    padding: 30px;
+    flex: 1;
+  }
+  .location-info h1 {
+    font-size: 32px;
+  }
+  .location-info p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .locations-title {
+    font-size: 48px;
+  }
+}

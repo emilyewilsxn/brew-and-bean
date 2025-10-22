@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brew & Bean</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Delius&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.ico" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <div class="left-section">
+        <img src="assets/favicon.ico" alt="Brew & Bean Logo">
+        <h1 class="site-title">Brew & Bean</h1>
+      </div>
+
+      <div class="right-section">
+
+      <button onclick="showNav();"class="nav-toggle-menu">
+          <span class="hamburger-menu-line"></span>
+          <span class="hamburger-menu-line"></span>
+          <span class="hamburger-menu-line"></span>
+        </button>
+
+        <nav class="navigation">
+          <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero-container">
+      <h1 class="hero-title">Brew & Bean</h1>
+      <h2 class="hero-text">Experience the perfect blend of artisanal coffee and cozy atmosphere</h2>
+      <button class="menu-btn" onclick="window.location.href='menu.html'">Explore Our Menu</button>
+    </div>
+  </section>
+  <main>
+    <section class="why-choose-us">
+        <div class="title-and-description">
+        <h1>Why Choose Us</h1>
+        <h2>We're passionate about delivering the finest coffee experience</h2>
+        </div>
+        <div class="feature-cards">
+          <article class="feature-card">
+            <img src="assets/coffee-feature-icon.png" alt="Steaming cup of coffee icon">
+            <h1>Premium Beans</h1>
+            <p>Sourced directly from the finest coffee farms around the world</p>
+        </article>
+        <article class="feature-card">
+            <img src="assets/bean-feature-icon.png" alt="Steaming cup of coffee icon">
+            <h1>Expert Roasting</h1>
+            <p>Roasted to perfection by our team of coffee artisans</p>
+        </article>
+        <article class="feature-card">
+            <img src="assets/heart-outline-feature-icon.png" alt="Steaming cup of coffee icon">
+            <h1>Cozy Atmosphere</h1>
+            <p>A warm and inviting space to enjoy your favorite brew</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-title-and-description">
+        <h1 class="footer-title">Brew & Bean</h1>
+        <p class="footer-text">Creating the perfect coffee experience since 2015. Visit us for premium coffee, cozy atmosphere, and exceptional service.</p>
+      </div>
+      <div class="quick-links">
+        <p class="quick-links-title">Quick Links</p>
+        <ul class="footer-links">
+          <li><a href="home.html" class="footer-link">Home</a></li>
+          <li><a href="menu.html" class="footer-link">Menu</a></li>
+          <li><a href="about.html" class="footer-link">About</a></li>
+          <li><a href="locations.html" class="footer-link">Locations</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="contact-info">
+        123 Main Street<br>City Center, ST 12345<br>(555) 123-4567<br>coffee@brewandbean.com
+      </div>
+      </div>
+      <span class="footer-span"></span>
+      <div class="copyright">
+        &copy; 2024 Brew & Bean. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>

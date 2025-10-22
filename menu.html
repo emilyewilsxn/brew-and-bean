@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Delius&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.ico" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/menu.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <div class="left-section">
+        <img src="assets/favicon.ico" alt="Brew & Bean Logo">
+        <h1 class="site-title">Brew & Bean</h1>
+      </div>
+
+      <div class="right-section">
+
+      <button onclick="showNav();"class="nav-toggle-menu">
+          <span class="hamburger-menu-line"></span>
+          <span class="hamburger-menu-line"></span>
+          <span class="hamburger-menu-line"></span>
+        </button>
+
+        <nav class="navigation">
+          <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="menu">
+    <section class="menu-container">
+      <div class="menu-intro">
+        <h1 class="menu-title">Our Menu</h1>
+        <h2 class="menu-description">Discover our carefully crafted selection of coffee and treats</h2>
+      </div>
+      <div class="menu-cards">
+        <article class="menu-section-card">
+        <h1 class="menu-section-title">Coffee</h1>
+        <div class="menu-section-item">
+          <div class="menu-item-header">
+            <h2 class="menu-name">Espresso</h2>
+            <span class="menu-item-price">$3.50</span>
+          </div>
+          <p class="menu-item-description">Rich and bold single shot</p>
+        </div>
+        <div class="menu-section-item">
+          <div class="menu-item-header">
+            <h2 class="menu-name">Cappuccino</h2>
+            <span class="menu-item-price">$4.75</span>
+          </div>
+          <p class="menu-item-description">Espresso with steamed milk and foam</p>
+        </div>
+        <div class="menu-section-item">
+          <div class="menu-item-header">
+            <h2 class="menu-name">Latte</h2>
+            <span class="menu-item-price">$5.25</span>
+          </div>
+          <p class="menu-item-description">Smooth espreso with steamed milk</p>
+        </div>
+        <div class="menu-section-item">
+          <div class="menu-item-header">
+            <h2 class="menu-name">Americano</h2>
+            <span class="menu-item-price">$4.25</span>
+          </div>
+          <p class="menu-item-description">Espresso with hot water</p>
+        </div>
+        <div class="menu-section-item">
+          <div class="menu-item-header">
+            <h2 class="menu-name">Mocha</h2>
+            <span class="menu-item-price">$5.75</span>
+          </div>
+          <p class="menu-item-description">Espresso with chocolate and steamed milk</p>
+        </div>
+      </article>
+      <article class="menu-section-card">
+        <h1 class="menu-section-title">Food & Treats</h1>
+        <div class="menu-section-item">
+          <div class="menu-item-header">
+            <h2 class="menu-name">Croissant</h2>
+            <span class="menu-item-price">$4.50</span>
+          </div>
+          <p class="menu-item-description">Flaky and buttery pastry</p>
+        </div>
+        <div class="menu-section-item">
+          <div class="menu-item-header">
+            <h2 class="menu-name">Blueberry Muffin</h2>
+            <span class="menu-item-price">$3.25</span>
+          </div>
+          <p class="menu-item-description">Sweet muffin with fresh blueberries</p>
+        </div>
+        <div class="menu-section-item">
+          <div class="menu-item-header">
+            <h2 class="menu-name">Avocado Toast</h2>
+            <span class="menu-item-price">$7.95</span>
+          </div>
+          <p class="menu-item-description">Sourdough toast topped with fresh avocado</p>
+        </div>
+        <div class="menu-section-item">
+          <div class="menu-item-header">
+            <h2 class="menu-name">Chocolate Chip Cookie</h2>
+            <span class="menu-item-price">$2.75</span>
+          </div>
+          <p class="menu-item-description">Classic cookie with gooey chocolate chips</p>
+        </div>
+        <div class="menu-section-item">
+          <div class="menu-item-header">
+            <h2 class="menu-name">Breakfast Sandwich</h2>
+            <span class="menu-item-price">$5.75</span>
+          </div>
+          <p class="menu-item-description">Egg and cheese on a toasted bagel</p>
+        </div>
+      </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-title-and-description">
+        <h1 class="footer-title">Brew & Bean</h1>
+        <p class="footer-text">Creating the perfect coffee experience since 2015. Visit us for premium coffee, cozy atmosphere, and exceptional service.</p>
+      </div>
+      <div class="quick-links">
+        <p class="quick-links-title">Quick Links</p>
+        <ul class="footer-links">
+          <li><a href="home.html" class="footer-link">Home</a></li>
+          <li><a href="menu.html" class="footer-link">Menu</a></li>
+          <li><a href="about.html" class="footer-link">About</a></li>
+          <li><a href="locations.html" class="footer-link">Locations</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="contact-info">
+        123 Main Street<br>City Center, ST 12345<br>(555) 123-4567<br>coffee@brewandbean.com
+      </div>
+      </div>
+      <span class="footer-span"></span>
+      <div class="copyright">
+        &copy; 2024 Brew & Bean. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
